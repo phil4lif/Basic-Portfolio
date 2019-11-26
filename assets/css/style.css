@@ -34,18 +34,21 @@ body {
     background-image: url("assets/images/herringbone.png");
     }
 
+section {
+    position: relative;
+}
+
 #philcowan {
-    position: absolute;
+    position: relative;
     width: 20%;
-    float: left;
 }
 
 #bio {
-    width:50%;
+    width:75%;
     color: #bbb;
     position: absolute;
-    right: 5;
-    margin: 5;
+    right: 0;
+    top: 0;
 }
 
 a {
