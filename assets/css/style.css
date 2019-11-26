@@ -31,23 +31,21 @@ footer {
     }
 
 body {
-        background-image: url("assets/images/herringbone.png");
+    background-image: url("assets/images/herringbone.png");
     }
 
-.picandbio {
-    position:absolute;
-}
-
 #philcowan {
-    width: 20%;
     position: absolute;
-    top: 0;
-    left: 0;
+    width: 20%;
+    float: left;
 }
 
 #bio {
+    width:50%;
     color: #bbb;
     position: absolute;
+    right: 5;
+    margin: 5;
 }
 
 a {
