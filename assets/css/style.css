@@ -30,6 +30,30 @@ footer {
     text-align: center;
     }
 
-    body {
-        background-color: #777;
+body {
+        background-image: url("assets/images/herringbone.png");
     }
+
+.picandbio {
+    position:absolute;
+}
+
+#philcowan {
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#bio {
+    color: #bbb;
+    position: absolute;
+}
+
+a {
+    color: #bbb;
+}
+
+hr {
+    color: #bbb;
+}
