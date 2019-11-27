@@ -14,7 +14,7 @@ header {
     position: relative;
 }
 
-#navsection {
+.navsection {
     height: 50px;
     width: 960px;
     margin: auto;
@@ -27,7 +27,9 @@ header {
     text-align: right;
     width: 30%;
 }
-
+h1 {
+    font-size: 32px;
+}
 .my-name {
     height: 50px;
     width: 25%;
