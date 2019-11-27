@@ -1,16 +1,45 @@
 .Content-Area {
     width: 960px;
     margin: auto;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color:#dddddd;
+}
+
+header {
+    height:50px
+    background-color: #ffffff;
+    border-bottom-style: line;
+    border-color: #cccccc
+    position: relative;
+}
+
+#navsection {
+    height: 50px;
+    width: 960px;
+    margin: auto;
+}
+
+.navbar {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    text-align: right;
+    width: 30%;
 }
 
 .my-name {
+    height: 50px;
     width: 25%;
     background-color: #4aaaa5;
-    color: white;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .div-heading {
     color: #4aaaa5;
+    border-bottom: solid #eee 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 html, body {
@@ -32,6 +61,7 @@ footer {
 
 body {
     background-image: url("assets/images/herringbone.png");
+    font-family: Arial, Helvetica, sans-serif;
     }
 
 section {
@@ -41,14 +71,17 @@ section {
 #philcowan {
     position: relative;
     width: 20%;
+    margin-left: 15px;
 }
 
 #bio {
+    margin: 15px;
     width:75%;
     color: #bbb;
     position: absolute;
     right: 0;
     top: 0;
+    line-height: 25px;
 }
 
 a {
