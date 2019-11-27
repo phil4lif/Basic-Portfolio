@@ -89,3 +89,12 @@ section {
 a {
     color: #bbb;
 }
+
+.txtbox {
+    width: 950px;
+}
+
+.msgbox {
+    width: 950px;
+    height: 300px;
+}
