@@ -5,6 +5,7 @@
     border-style: solid;
     border-color:#dddddd;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("../images/herringbone.png");
@@ -12,17 +13,11 @@ body {
     }
 
 header {
-    height:50px
     background-color: white;
+    height: 50px;
     border-bottom-style: line;
     border-color: #cccccc
     position: relative;
-}
-
-.navsection {
-    height: 50px;
-    width: 960px;
-    margin: auto;
 }
 
 .navbar {
@@ -68,8 +63,6 @@ footer {
     text-align: center;
     }
 
-
-
 section {
     position: relative;
 }
@@ -101,4 +94,38 @@ a {
 .msgbox {
     width: 950px;
     height: 300px;
+}
+
+.navsection {
+    height: 50px;
+    width: 100%;
+}
+
+.portphoto {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    position: relative;
+} 
+
+.two {
+    position: relative;
+    bottom: 220px;
+    left: 220px;
+}
+
+.three {
+    position: relative;
+    bottom: 220px;
+}
+
+.four {
+    position: relative;
+    bottom: 440px;
+    left: 220px;
+}
+
+.five {
+    position: relative;
+    bottom: 440px;
 }
